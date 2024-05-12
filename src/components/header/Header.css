@@ -1,0 +1,23 @@
+.header{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1.6rem;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.233);
+}
+.header .nav-header{
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+    font-size: var(--font-secondary);
+    color: black;
+}
+
+.header .nav-header button{
+    background:var(--gradient);
+    padding: .6rem 1.2rem;
+    border-radius: var(--border-radius);
+    border: none;
+    color: white;
+    box-shadow: 1px 1.5px 2px var(--orange);
+}
